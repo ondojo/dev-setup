@@ -109,7 +109,7 @@ brew install git-lfs
 brew install git-flow
 brew install git-extras
 brew install hub
-brew install imagemagick --with-webp
+brew install imagemagick
 brew install lua
 brew install lynx
 brew install p7zip
@@ -136,40 +136,40 @@ brew link libxslt --force
 # heroku update
 
 # Core casks
-# brew cask install --appdir="/Applications" alfred
-brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="~/Applications" java
-brew cask install --appdir="~/Applications" xquartz
+# brew install --appdir="/Applications" alfred
+brew install --appdir="~/Applications" iterm2
+brew install --appdir="~/Applications" java
+brew install --appdir="~/Applications" xquartz
 
 # Development tool casks
-brew cask install --appdir="/Applications" visual-studio-code
-# brew cask install --appdir="/Applications" sublime-text
-# brew cask install --appdir="/Applications" atom
-# brew cask install --appdir="/Applications" virtualbox
-# brew cask install --appdir="/Applications" vagrant
-# brew cask install --appdir="/Applications" macdown
+brew install --appdir="/Applications" visual-studio-code
+# brew install --appdir="/Applications" sublime-text
+# brew install --appdir="/Applications" atom
+# brew install --appdir="/Applications" virtualbox
+# brew install --appdir="/Applications" vagrant
+# brew install --appdir="/Applications" macdown
 
 # Misc casks
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" spectacle
-# brew cask install --appdir="/Applications" firefox
-# brew cask install --appdir="/Applications" skype
-# brew cask install --appdir="/Applications" slack
-# brew cask install --appdir="/Applications" dropbox
-# brew cask install --appdir="/Applications" evernote
-# brew cask install --appdir="/Applications" 1password
-#brew cask install --appdir="/Applications" gimp
-#brew cask install --appdir="/Applications" inkscape
+brew install --appdir="/Applications" google-chrome
+brew install --appdir="/Applications" spectacle
+# brew install --appdir="/Applications" firefox
+# brew install --appdir="/Applications" skype
+# brew install --appdir="/Applications" slack
+# brew install --appdir="/Applications" dropbox
+# brew install --appdir="/Applications" evernote
+# brew install --appdir="/Applications" 1password
+#brew install --appdir="/Applications" gimp
+#brew install --appdir="/Applications" inkscape
 
 #Remove comment to install LaTeX distribution MacTeX
-#brew cask install --appdir="/Applications" mactex
+#brew install --appdir="/Applications" mactex
 
 # Install Docker, which requires virtualbox
 # brew install docker
 # brew install boot2docker
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip qlimagesize webpquicklook suspicious-package quicklookase qlvideo
+brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip qlimagesize webpquicklook suspicious-package quicklookase qlvideo
 
 # Remove outdated versions from the cellar.
 brew cleanup
